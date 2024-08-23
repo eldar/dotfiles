@@ -1,0 +1,6 @@
+git:
+  paging:
+    colorArg: always
+    pager: delta --dark --side-by-side --paging=never
+gui:
+  sidePanelWidth: 0.25

@@ -1,0 +1,13 @@
+theme = "catppuccin_mocha"
+
+[editor]
+true-color = true
+
+# https://theari.dev/blog/enhanced-helix-config/
+[keys.normal]
+A-x = "extend_to_line_bounds"
+X = ["extend_line_up", "extend_to_line_bounds"]
+
+[keys.select]
+A-x = "extend_to_line_bounds"
+X = ["extend_line_up", "extend_to_line_bounds"]
