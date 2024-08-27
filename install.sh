@@ -1,5 +1,6 @@
 #!/bin/sh
 
+[ ! -e ~/.config/kitty ] && ln -s `pwd`/kitty ~/.config/kitty
 [ ! -e ~/.config/tmux ] && ln -s `pwd`/tmux ~/.config/tmux
 [ ! -e ~/.config/helix ] && ln -s `pwd`/helix ~/.config/helix
 [ ! -e ~/.config/lazygit ] && ln -s `pwd`/lazygit ~/.config/lazygit
